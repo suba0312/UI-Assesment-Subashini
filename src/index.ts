@@ -17,6 +17,7 @@ async function onLoadMore() {
   loadProducts();
 }
 
+// fetch products from API
 async function fetchProducts(page: number, limit: number): Promise<Product[]> {
   const response = isButtonClicked
     ? await fetch(`https://fakestoreapi.com/products`)
