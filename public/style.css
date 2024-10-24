@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #428dd7;
+    color: white;
+}
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.cart-icon {
+    font-size: 24px;
+}
+.poster {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+aside {
+    width: 25%;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+.product-list {
+    width: 75%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product h4 {
+    margin: 10px 0;
+}
+
+.load-button {
+    text-align: center;
+}
+
+.load-more-button {
+    margin-top: 20px; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+ footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    margin-top: 20px;
+}
+.footer-title {
+    font-size: 18px;
+}
+.footer-center {
+    flex-grow: 1;
+    text-align: center;
+}
+.footer-right {
+    text-align: right;
+}
+.footer-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
